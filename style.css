@@ -7,7 +7,7 @@
 .Main{
     width: 100%;
     height: 100vh;
-    background-color: gray;
+    background-color:rgb(146, 222, 222);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,6 +159,9 @@ border-top-left-radius: 20px;
 .Figure{
     margin-left: 1rem;
 }
+.Mobile{
+    display: none;
+}
 @media only screen and (max-width:600px){
     .Main{
         display: none;
@@ -170,6 +173,9 @@ border-top-left-radius: 20px;
     width: 100%;
     height: 100vh;
     background-color:gray;
+    }
+    .Mobile{
+        display: block;
     }
     .Top{
         width: 100%;
@@ -183,11 +189,12 @@ border-top-left-radius: 20px;
        margin-left: 20px;
        font-size: 14px;
     }
-    hr{
+   hr{
         margin: 0px 150px;
         margin-left: 2px;
         margin-bottom: 10px;
-        margin-right: 300px;
+        margin-right: 390px;
+        width: 50px;
     }
     .Amount{
         display: flex;
@@ -306,4 +313,5 @@ border-top-left-radius: 20px;
     border: 1px solid rgb(255, 200, 47);
   
     }
+
 }
