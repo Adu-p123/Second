@@ -189,7 +189,7 @@ border-top-left-radius: 20px;
        margin-left: 20px;
        font-size: 14px;
     }
-   hr{
+    hr{
         margin: 0px 150px;
         margin-left: 2px;
         margin-bottom: 10px;
@@ -313,5 +313,4 @@ border-top-left-radius: 20px;
     border: 1px solid rgb(255, 200, 47);
   
     }
-
 }
