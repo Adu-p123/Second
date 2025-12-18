@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.Main{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(146, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content{
+    width: 60%;
+    height: 65vh;
+   background-color: white;
+    display: flex;
+    border-radius: 30px;
+}
+
+.header{
+    display: flex;
+    margin: 1rem;
+    gap: 5rem;
+    margin-left: 2rem;
+}
+.head{
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+}
+.Middle{
+    display: flex;
+    flex-direction: column;
+   margin: 10px 34px;
+    gap: 10px;
+}
+.Middle input{
+    width: 20rem;
+    height: 2rem;
+}
+.Mort{
+    display: flex;
+    margin: 10px 35px;
+    margin-top: 1.2rem;
+}
+.Mort input{
+    margin-top: 0.5rem;
+    width: 88%;
+    height: 5vh;
+}
+.Type{
+    display: flex;
+    flex-direction: column;
+    margin-left:2.2rem;
+   
+}
+.Type input{
+    width: 20rem;
+    height:5vh ;
+    margin-top: 0.5rem;
+    position: relative;
+}
+.sub input{
+    background-color: rgb(220, 255, 47);
+    border: 1px solid rgb(255, 200, 47);
+  
+}
+.Radio{
+    position: absolute;
+    left: 20rem;
+    bottom: 17.5rem;
+    
+}
+.Radio input{
+   width: 1rem;
+   
+}
+.Round input{
+    width: 1rem;
+}
+.Round{
+   position: absolute;
+    left: 20rem;
+    bottom: 14.8rem; 
+}
+.btn{
+    margin-top: 1rem;
+    margin-left: 2.3rem;
+}
+button{
+    width: 55%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 255, 47);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.Left{
+width: 60%;
+height: 65vh;
+background-color: white;
+border-bottom-left-radius:20px ;
+border-top-left-radius: 20px;
+}
+.Right{
+    width: 60%;
+    height: 65vh;
+    background-color: rgb(42, 42, 45);
+   border-top-right-radius: 20px;
+   border-bottom-left-radius: 40px;
+   border-bottom-right-radius: 20px;
+   color: white;
+   z-index: 6;
+}
+.Result h3{
+    margin: 20px;
+    margin-left: 2rem;
+   
+}
+.Written{
+    margin-left: 2.2rem;
+    font-size: 15px;
+}
+
+.Gather{
+    width: 73%;
+    height: 30vh;
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 10px 36px;
+    margin-top: 2rem;
+    border-top: 6px solid rgb(220, 255, 47);;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: black;
+   
+}
+.Total{
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+.Line{
+    margin: 0 20px;
+    margin-top: 1rem;
+
+}
+.Number{
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+    font-size: 40px;
+}
+.Figure{
+    margin-left: 1rem;
+}
+.Mobile{
+    display: none;
+}
+@media only screen and (max-width:600px){
+    .Main{
+        display: none;
+    }
+    .Content{
+        display: none;
+    }
+    .Mobile{
+    width: 100%;
+    height: 100vh;
+    background-color:gray;
+    }
+    .Mobile{
+        display: block;
+    }
+    .Top{
+        width: 100%;
+        height: 55vh;
+        background-color: white;
+    }
+    .Bile h2{
+        margin: 10px 20px;
+    }
+    .All{
+       margin-left: 20px;
+       font-size: 14px;
+    }
+    hr{
+        margin: 0px 150px;
+        margin-left: 2px;
+        margin-bottom: 10px;
+        margin-right: 390px;
+        width: 50px;
+    }
+    .Amount{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px;
+        margin-top: 2rem;
+    }
+    .Amount input{
+        width: 100%;
+        height: 2.2rem;
+    }
+     .Amount label{
+        margin-bottom: 10px;
+        font-size: 14px;
+     }
+     .Term{
+        display: flex;
+        flex-direction: column;
+          margin: 10px 20px;
+     }
+     .Term input{
+        width: 100%;
+        height: 2.2rem;
+     }
+     .Term label{
+        margin-bottom: 10px;
+        font-size: 14px; 
+     }
+     .Interest{
+        display: flex;
+        flex-direction: column;
+          margin: 10px 20px; 
+     }
+     .Interest input{
+        width: 100%;
+        height: 2.2rem;
+     }
+     .Interest label{
+        margin-bottom: 10px; 
+        font-size: 14px;
+     }
+     .Repayment{
+        display: flex;
+        flex-direction: column;
+          margin: 10px 20px
+     }
+     .Repayment input{
+         width: 100%;
+        height: 2.2rem;
+        margin: 3px 0;
+        position: relative;
+     }
+    .Circle{
+        position: absolute;
+        bottom: 54%;
+        left: 40px;
+        z-index: 1;
+    }
+    .pay{
+        position: absolute;
+        bottom: 58.1%;
+        left: 40px; 
+    }
+     .Repayment label{
+         margin-bottom: 10px; 
+         font-size: 14px;
+     }
+     button{
+        margin: 12px 20px;
+        width: 90%;
+     }
+     .Down{
+        width: 100%;
+        height: 55vh;
+        background-color: rgb(16, 27, 31); 
+        padding-top: 10px;
+        color: white;
+       
+     }
+     h3{
+        margin: 10px 20px;
+     }
+     .Write{
+        margin: 10px 20px;
+     }
+     
+    .payment{
+        width: 80%;
+        height: 20vh;
+        background-color: rgb(11, 11, 11);
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-top: 5px;
+        border-top: 7px solid rgb(224, 255, 47);
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+
+    }
+    .Hon hr{
+       width: 90%; 
+       margin-top: 20px;
+       margin: 0 20px;
+    }
+    .Square p{
+        margin: 10px 20px;
+    }
+    .Fig{
+        margin: 0px 22px;
+    }
+    .tal{
+        margin: 0px 20px;
+        margin-top: 1rem;
+    }
+    .box input{
+     background-color: rgb(220, 255, 47);
+    border: 1px solid rgb(255, 200, 47);
+  
+    }
+}
+
